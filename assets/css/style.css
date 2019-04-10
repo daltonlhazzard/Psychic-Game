@@ -1,0 +1,20 @@
+.header {
+    text-align: center;
+    font-size: 90px;
+    background-color: aliceblue;
+}
+
+#directions {
+    font-size: 30px;
+}
+
+html {
+    background-color: rgb(126, 235, 126);
+}
+
+#list {
+    color: rgb(25, 25, 37);
+    text-align: center;
+    font-size: 40px;
+    background-color: aliceblue;
+}
