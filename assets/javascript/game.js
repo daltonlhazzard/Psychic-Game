@@ -19,6 +19,7 @@ document.onkeypress= function(keyclicked) {
     if (guess===computerGuess) {
         wins++;
         alert("You Win!!");
+        guessesLeft="9";
     }
     else {
         guessesLeft--;
