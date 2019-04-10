@@ -22,18 +22,21 @@ document.onkeypress= function(keyclicked) {
     }
     else {
         guessesLeft--;
-        losses++;
+        
     }
 
    
     document.getElementById("wins").innerHTML = "Wins:"+ wins;
     document.getElementById("lose").innerHTML = "Losses:" + losses;
     document.getElementById("guessesLeft").innerHTML = "guessesLeft:" +guessesLeft;
-
+    document.getElementById("letter").innerHTML = "Your Guesses so far:" +letterUser;
+    
     if (guessesLeft === 0){
         alert ("You Lose!!!!!!");
+        guessesLeft="9";
     }
 }
+
 
 
 
